@@ -1,3 +1,59 @@
+.propic:hover{
+  background-image: url("https://scontent.fphl2-2.fna.fbcdn.net/v/t1.0-1/p160x160/10850031_1010748182272390_5666815846520368736_n.jpg?oh=ba7b2a21a453ef7c0c366787db65a451&oe=5838512E");
+}
+#floattext{
+  float: right;
+  color: red;
+  font-size: 1.8rem;
+}
 body, html {
-  font-size: 12px;
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+.std-paragraph {
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+}
+nav ul{
+  list-style: none;
+  padding: 0;
+  text-align; center;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li:last-child{
+  margin-right: 0;
+}
+nav ul li > a {
+  color: violet;
+  font-size: 1.5rem;
+  font-style: normal;
+}
+#ZachSection1 p{
+  font-family: fantasy;
+  font-size: 2rem;
+}
+#ZachSection2 a{
+  text-align: center;
+  text-decoration: none;
+}
+blockquote{
+  color: green;
+  font-size: 2rem;
+  font-style: italic;
+}
+#ZachSection3 p{
+  font-weight: bold;
+  font-size:2rem;
+  display: list-item;
+}
+form{
+  color: green;
+  font-size: 1.5rem;
+}
+footer{
+  font-size: 1rem;
 }
